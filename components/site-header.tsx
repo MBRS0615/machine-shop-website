@@ -41,9 +41,9 @@ export function SiteHeader() {
             <Cog className="size-5" aria-hidden="true" />
           </span>
           <span className="flex flex-col leading-none">
-            <span className="text-sm font-bold tracking-tight sm:text-base">AXIS</span>
+            <span className="text-sm font-bold tracking-tight sm:text-base">Auto Point</span>
             <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-              Precision
+              Machine Shop
             </span>
           </span>
         </a>
