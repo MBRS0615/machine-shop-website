@@ -18,13 +18,13 @@ const geistMono = Geist_Mono({
 const SITE_NAME = 'Auto Point Machine Shop'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://axisprecision.example.com'),
+  metadataBase: new URL('https://autopointmachineshop.netlify.app/'),
   title: {
-    default: 'Axis Precision Machining | CNC Machining & Metal Fabrication',
+    default: 'Auto Point Machine Shop | Metal Fabrication',
     template: `%s | ${SITE_NAME}`,
   },
   description:
-    'Axis Precision Machining delivers CNC milling, CNC turning, welding, and custom metal fabrication with tolerances to ±0.0002". Serving aerospace, automotive, and industrial clients since 1998.',
+    'Auto Point Machine Shop delivers CNC milling, CNC turning, welding, and custom metal fabrication with tolerances to ±0.0002". Serving aerospace, automotive, and industrial clients since 1998.',
   keywords: [
     'CNC machining',
     'precision machining',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   generator: 'v0.app',
   openGraph: {
     type: 'website',
-    title: 'Axis Precision Machining | CNC Machining & Metal Fabrication',
+    title: 'Auto Point Machine Shop | CNC Machining & Metal Fabrication',
     description:
       'Precision machining and metal fabrication engineered for excellence. CNC milling, turning, welding, and custom parts with aerospace-grade tolerances.',
     siteName: SITE_NAME,
