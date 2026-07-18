@@ -8,20 +8,20 @@ const DETAILS = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '(216) 555-0142',
+    value: '+63 994 099 2103',
     href: 'tel:+12165550142',
   },
   {
     icon: Mail,
     label: 'Email',
-    value: 'quotes@axisprecision.com',
+    value: 'sanchezmarkbryan01427@gmail.com',
     href: 'mailto:quotes@axisprecision.com',
   },
   {
     icon: MapPin,
     label: 'Address',
-    value: '4820 Foundry Parkway, Cleveland, OH 44135',
-    href: 'https://www.google.com/maps?q=Cleveland+OH+44135',
+    value: 'Carissa Homes, Bagtas, Tanza, Cavite',
+    href: 'https://maps.app.goo.gl/RWgmezG5nbHdeuqG9',
   },
 ]
 
