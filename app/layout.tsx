@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
   display: 'swap',
 })
 
-const SITE_NAME = 'Axis Precision Machining'
+const SITE_NAME = 'Auto Point Machine Shop'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://axisprecision.example.com'),

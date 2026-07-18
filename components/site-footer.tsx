@@ -26,9 +26,9 @@ export function SiteFooter() {
                 <Cog className="size-5" aria-hidden="true" />
               </span>
               <span className="flex flex-col leading-none">
-                <span className="text-base font-bold tracking-tight">AXIS</span>
+                <span className="text-base font-bold tracking-tight">Auto Point</span>
                 <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-muted-foreground">
-                  Precision
+                  Machine Shop
                 </span>
               </span>
             </div>
@@ -59,7 +59,7 @@ export function SiteFooter() {
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-border pt-8 sm:flex-row">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Axis Precision Machining. All rights reserved.
+            © {new Date().getFullYear()} Website created by MBRS. Demo Version ./.
           </p>
           <div className="flex gap-6">
             <a href="#" className="text-xs text-muted-foreground transition-colors hover:text-foreground">
