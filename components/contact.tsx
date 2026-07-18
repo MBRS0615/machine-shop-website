@@ -37,10 +37,27 @@ const inputClass =
 export function Contact() {
   const [submitted, setSubmitted] = useState(false)
 
-  function handleSubmit(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault()
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+  e.preventDefault()
+
+  const form = e.currentTarget
+  const formData = new FormData(form)
+
+  const response = await fetch("/", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+    },
+    body: new URLSearchParams(formData as any).toString(),
+  })
+
+  if (response.ok) {
     setSubmitted(true)
+    form.reset()
+  } else {
+    alert("Something went wrong. Please try again.")
   }
+}
 
   return (
     <section id="contact" className="relative border-t border-border py-24 sm:py-28">
@@ -76,7 +93,16 @@ export function Contact() {
                   </Button>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="grid gap-5">
+                <form
+  name="contact"
+  method="POST"
+  data-netlify="true"
+  data-netlify-honeypot="bot-field"
+  onSubmit={handleSubmit}
+  className="grid gap-5"
+>
+  <input type="hidden" name="form-name" value="contact" />
+  <input type="hidden" name="bot-field" />
                   <div className="grid gap-5 sm:grid-cols-2">
                     <div>
                       <label htmlFor="name" className="mb-2 block text-sm font-medium">
