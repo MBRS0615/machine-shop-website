@@ -21,7 +21,7 @@ const DETAILS = [
     icon: MapPin,
     label: 'Address',
     value: 'Carissa Homes, Bagtas, Tanza, Cavite',
-    href: 'https://www.google.com/maps?q=Cleveland+OH+44135',
+    href: 'https://maps.app.goo.gl/9VJfcpPiL3AMGFsPA',
   },
 ]
 
@@ -202,7 +202,7 @@ export function Contact() {
             <div className="overflow-hidden rounded-2xl border border-border">
               <iframe
                 title="Axis Precision Machining location map"
-                src="https://www.google.com/maps?q=Cleveland,OH+44135&output=embed"
+                src="https://maps.app.goo.gl/9VJfcpPiL3AMGFsPA"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="h-56 w-full grayscale contrast-125"
